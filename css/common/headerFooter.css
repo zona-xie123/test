@@ -684,11 +684,6 @@ footer {
   background: url(../img/footerBg.jpg) repeat-y center;
   color: #fff;
 }
-@media (max-width: 768px) {
-  footer {
-    margin-bottom: 50px;
-  }
-}
 footer .link {
   font-size: 13px;
   margin: auto;
