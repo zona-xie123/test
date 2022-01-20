@@ -34,6 +34,20 @@ $(document).ready(function () {
            float_btn.stop().fadeOut();
         }
     });
+    if ($(window).width() < 769) {
+       
+        $(window).scroll(function(){
+             //最後一頁scrollTop=body-window，50是預留空間
+     last=$("body").height()-$(window).height()-50
+     if($(window).scrollTop()>=last){
+        $(".float_action_group").hide()
+     }
+     else{
+        $(".float_action_group").show()
+     }
+         
+        })
+    }
 
     //數位服務選單
     $('.function_ham').click(function () {
