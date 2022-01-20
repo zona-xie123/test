@@ -463,9 +463,12 @@ nav ul li:hover a {
     height: inherit;
     border-radius: inherit;
     display: block;
-    padding: 20px 10px;
     margin: 0;
     font-size: 16px;
+  }
+  .float_btn .float_action_group .float_action_btn a {
+    padding: 16px 10px;
+    display: block;
   }
   .float_btn .float_action_group .float_action_btn .break {
     display: none;
@@ -683,7 +686,7 @@ footer {
 }
 @media (max-width: 768px) {
   footer {
-    margin-bottom: 56px;
+    margin-bottom: 50px;
   }
 }
 footer .link {
