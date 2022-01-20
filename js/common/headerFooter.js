@@ -38,7 +38,7 @@ $(document).ready(function () {
        
         $(window).scroll(function(){
              //最後一頁scrollTop=body-window，50是預留空間
-     last=$("body").height()-$(window).height()-80
+     last=$("body").height()-$(window).height()-200
      if($(window).scrollTop()>=last){
         $(".float_action_group").hide()
      }
