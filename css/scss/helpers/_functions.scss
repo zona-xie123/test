@@ -1,0 +1,17 @@
+//Function
+
+//pxTorem px單位換算rem
+@function pxTorem($px) {
+  @if ($px == 0) {
+    @return 0;
+  } @else {
+    @return $px / $font-size-default * 1rem;
+  }
+}
+
+//hide-text 圖片取代文字
+@mixin hide-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}

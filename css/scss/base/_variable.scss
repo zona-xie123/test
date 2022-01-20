@@ -1,0 +1,95 @@
+//------------------------------
+//Color System 基本顏色變數
+//------------------------------
+
+//Primary Color
+$primary-1: #f4f8fa !default;
+$primary-2: #E1EFEF !default;
+$primary-3: #bde3e2 !default;
+$primary-4: #87d4c7 !default;
+$primary-5: #5fc7b9 !default;
+$primary-6: #3cbaad !default;
+$primary-7: #1cada4 !default;
+$primary-8: #00a19b !default;
+$primary-9: #007a7a !default;
+$primary-10: #005154 !default;
+
+//Neutral Color
+$gray-1: #ffffff !default;
+$gray-2: #fafafa !default;
+$gray-3: #f5f5f5 !default;
+$gray-4: #f0f0f0 !default;
+$gray-5: #d9d9d9 !default;
+$gray-6: #acacac !default;
+$gray-7: #7c7c7c !default;
+$gray-8: #595959 !default;
+$gray-9: #434343 !default;
+$gray-10: #262626 !default;
+$gray-11: #1c1c1c !default;
+$gray-12: #141414 !default;
+$gray-13: #000000 !default;
+
+//Blue Color
+$blue-1: #e6fbff !default;
+$blue-2: #a3eeff !default;
+$blue-3: #7ae2ff !default;
+$blue-4: #52d4ff !default;
+$blue-5: #28c0fc !default;
+$blue-6: #00a4ef !default;
+$blue-7: #0083c9 !default;
+$blue-8: #0065a3 !default;
+$blue-9: #00497d !default;
+$blue-10: #003057 !default;
+
+//Error Color
+$error-color: #c92e34 !default;
+
+//Hightlight Color
+$hightlight-color: #ef7800 !default;
+$hightlight-color2: #f8524c !default;
+
+//------------------------------
+//Font 字體變數
+//------------------------------
+
+//Default Font
+$font-family-sans-serif: "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "新細明體", sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
+
+// base
+$font-size-default: 16px !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * 0.875 !default;
+
+// font-weight
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+$font-weight-base: $font-weight-regular !default;
+$line-height-base: 1.5 !default;
+
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
+
+//------------------------------
+//Breakpoints 斷點變數
+//------------------------------
+
+//default
+$breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+) !default;

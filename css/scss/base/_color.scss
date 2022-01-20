@@ -1,0 +1,58 @@
+//------------------------------
+//Color 線條顏色
+//------------------------------
+
+.color-primary {
+    color: $primary-8;
+}
+.color-hightlight-orange {
+    color: $hightlight-color;
+}
+.color-hightlight-pink {
+    color: $hightlight-color2;
+}
+.color-error {
+    color: $error-color;
+    &:hover {
+        color: #f3232a;
+        transition: 0.5s;
+    }
+}
+.color-gray-1 {
+    color: $gray-1;
+}
+
+.color-primary-to-white {
+    color: $gray-1;
+    @include min(md) {
+        color: $primary-8;
+    }
+}
+
+//------------------------------
+//Background 背景底色
+//------------------------------
+.bg-primary--light {
+    background: $primary-1;
+    padding: 3rem 0;
+}
+.bg-primary {
+    background: $primary-8;
+}
+.bg-gray-4 {
+    background: $gray-4;
+}
+.bg-hightlight {
+    background: $hightlight-color;
+    &:hover {
+        background: #f99632;
+        transition: 0.5s;
+    }
+}
+.bg-error {
+    background: $error-color;
+    &:hover {
+        background: #f3232a;
+        transition: 0.5s;
+    }
+}

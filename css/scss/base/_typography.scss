@@ -1,0 +1,64 @@
+.h1 {
+    font-size: pxTorem(32px);
+    line-height: 1.5;
+    font-weight: 500;
+    @include min(sm) {
+        font-size: pxTorem(36px);
+        line-line-height: 1.5;
+    }
+}
+.h2 {
+    font-size: pxTorem(24px);
+    line-height: 1.5;
+    font-weight: 500;
+    @include min(sm) {
+        font-size: pxTorem(32px);
+        line-height: 1.5;
+    }
+}
+.h3 {
+    font-size: pxTorem(20px);
+    line-height: 1.5;
+    font-weight: 400;
+    @include min(sm) {
+        font-size: pxTorem(24px);
+        line-height: 1.5;
+    }
+}
+.h4 {
+    font-size: pxTorem(16px);
+    font-weight: 500;
+    @include min(sm) {
+        font-size: pxTorem(18px);
+        line-height: 1.5;
+    }
+}
+.h5 {
+    font-size: pxTorem(16px);
+    font-weight:500;
+}
+.p1{
+    font-size: pxTorem(18px);
+    line-height: 1.5;
+    @include min(sm) {
+        font-size: pxTorem(20px);
+    }
+}
+.p2{
+    font-size: pxTorem(16px);
+    line-height: 1.5;
+    @include min(sm) {
+        font-size: pxTorem(18px);
+    }
+}
+.p3{
+    font-size: pxTorem(16px);
+    line-height: 1.5;
+}
+.p4{
+    font-size: pxTorem(14px);
+    line-height: 1.5;
+}
+b{
+    font-weight: bold;
+}
